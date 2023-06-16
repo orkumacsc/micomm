@@ -1,0 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: large;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: darkgreen;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
