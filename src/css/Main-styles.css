@@ -3,17 +3,21 @@
     padding: 0%;
     font-size: large;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-    background-color: darkgreen;
+header {    
     align-content: center;
     text-align: center;
     color: white;
+    padding: 1.25rem;
 }
 
 img{
-    max-width: 100%;
-    max-height:none;
+    max-width: 20%;
+    max-height: 50%;
+}
+
+body {
+    background-color: darkgreen;
 }
