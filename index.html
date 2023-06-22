@@ -14,7 +14,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <img src="/src/images/logo.png" alt=""> 
+            <div class="row">
+                <a href="#home"><img src="/src/images/logo.png" alt=""></a>
+                <a class="nav-toggler">Open Menu</a>
+            </div>
             <ul class="navbar-nav">
                 <li><a href="#about_me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -24,15 +27,24 @@
         </nav>
     </header>
     <main>
-        <section class="about">
-            <article class="about-content">
+        <div class="about-wrapper">
+            <div class="about-content-wrapper">
                 <h4 class="about-header">Hi Everyone! I'm Michael</h4>
                 <h5 class="about-subheader">I'm a <big>FullStack Web Developer</big>.
                     I help companies to leverage on technology to
                     launch and grow their products.
                 </h5>
-            </article>            
-        </section>
+                <p class="about-content">
+                    I'm a FullStack Web Developer with four years experience.
+                    I've a vast practical knowledge of the tooling I used in my development.
+                    I make use of the latest technologies and complete projects on time, 
+                    deliver on time and within budget.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="/src/images/header-image.png" alt="">
+            </div>                       
+        </div>          
     </main>
 
     <script src="/src/js/App.js"></script>
