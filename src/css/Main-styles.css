@@ -99,12 +99,12 @@ big {
 
 .about-content {
     font-size: xx-large;
-    text-align: justify;
+    text-align: center;
     padding: .75rem 0;
 }
 .about-subheader {
     font-size: xx-large;
-    text-align: justify;
+    text-align: center;
     padding: 1rem 0;
 }
 img {
