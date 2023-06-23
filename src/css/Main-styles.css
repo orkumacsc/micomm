@@ -98,13 +98,13 @@ big {
 }
 
 .about-content {
-    font-size: xx-large;
-    text-align: center;
+    font-size: large;
+    text-align: left;
     padding: .75rem 0;
 }
 .about-subheader {
-    font-size: xx-large;
-    text-align: center;
+    font-size: x-large;
+    text-align: left;
     padding: 1rem 0;
 }
 img {
