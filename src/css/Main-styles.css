@@ -5,6 +5,49 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, .90);
+}
+
+.footer-container {
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, .90);
+    color: white;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+}
+.container .tech-stacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 1rem;    
+}
+
+.container > h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: yellowgreen;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.tech-item {
+    padding: .50rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:yellowgreen;
+    width: 20%;
+      
+}
+
+
 
 header {  
     background-color:darkgreen;  
@@ -124,5 +167,13 @@ img {
 .row {
     display: flex;
     align-items: center;
+}
+.container .tech-stacks {
+    display: block;
+       
+}
+
+.tech-item {
+    width: 100%;
 }
   }
