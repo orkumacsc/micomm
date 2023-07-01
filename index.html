@@ -18,9 +18,9 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="row">
-                <a href="#home"><img src="/src/images/logo.png" alt=""></a>
-                <a class="nav-toggler">Open Menu</a>
+            <div class="nav-group">
+                <a class="logo-link" href="#home"><img class="nav-image" src="/src/images/logo.png" alt="">ORKUMA, Michael Msuega</a>
+                <a class="nav-toggler"><i class="fa fa-bars fa-2x"></i></a>
             </div>
             <ul class="navbar-nav">
                 <li><a href="#about_me">About Me</a></li>
@@ -32,7 +32,7 @@
     </header>
     <main>
         <div class="about-wrapper">
-            <div class="about-content-wrapper">
+            <div class="about-group">
                 <h4 class="about-header">Hi Everyone! I'm Michael</h4>
                 <h5 class="about-subheader">I'm a <i class="different">FullStack Web Developer</i>.
                     I help companies to leverage on technology to
@@ -45,8 +45,8 @@
                     deliver on time and within budget.
                 </p>
             </div>
-            <div class="about-image">
-                <svg class="home__blob" viewBox="0 0 750 591" xmlns="http://www.w3.org/2000/svg">
+            <div class="about-group">
+                <svg class="home_image" viewBox="0 0 750 591" xmlns="http://www.w3.org/2000/svg">
                     <mask id="maskBlob" mask-type="alpha">
                        <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
                        170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
@@ -75,15 +75,15 @@
                        </pattern>
                  
                        <!-- Insert your profile (recommended size: 640 x 940) -->
-                       <image class="home__img" id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
+                       <image class="home_image" id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
                     </defs>
                  </svg>
                 <!-- <img src="/src/images/header-image.png" alt=""> -->
             </div>                       
         </div>
-        <div class="container bg-theme-color-1"> 
-            <h1>TECH STACKS</h1>           
-            <div class="tech-stacks">                
+        <div class="container bg-theme-color-1 text-center"> 
+            <h2>My Tech Tools</h2>           
+            <div class="tech-wrapper">                
                 <div class="tech-item">
                     <small class="fa-brands fa-react fa-spin fa-2x"></small>
                     <h4>React</h4>
@@ -109,8 +109,8 @@
                 </div>
             </div>
         </div>
-        <div class="container bg-theme-color-2"> 
-            <h1>Projects Completed</h1>           
+        <div class="container bg-theme-color-2 text-center"> 
+            <h2>Projects Completed</h2>           
             <div class="works-completed">                
                 <div class="works-item">
                     <div class="works-cover-image">
@@ -135,10 +135,10 @@
             </div>
         </div>  
         <div class="container text-center bg-theme-color-1 p-2">
-            <h2 class="p-2">Get in Touch</h2>
-            <div class="contact-me">
+            <h2>Get in Touch</h2>
+            <div class="contact-wrapper">
                 <div class="contact-group">
-                    <h3 class="p-2">I'm Social</h3>                                                 
+                    <h3>I'm Social</h3>                                                 
                     <ul class="footer-nav">
                         <li class="facebook"><a href="https://www.facebook.com/princemike.joseph" target="_blank">
                             <i class="fa-brands fa-facebook fa-2x"></i>  Facebook</a>
@@ -161,7 +161,7 @@
                     </ul>                                        
                 </div>
                 <div class="contact-group">
-                    <h3 class="p-2">Send Me a Message</h3>
+                    <h3>Want to send me a message?</h3>
                     <form action="send_message.js" method="post" id="sendMessage">
                         <div class="form-group">
                             <input type="text" name="fullname" required placeholder="Enter Your Full Name">
