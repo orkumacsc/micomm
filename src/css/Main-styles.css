@@ -307,6 +307,16 @@ input {
     display: none;    
 }
 
+.navbar-open {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 80%;
+    background-color: #28D146;
+    transition: width 3s linear 2s;
+}
+
 .contact-group:first-child{
     padding-right: 0%;
 }
