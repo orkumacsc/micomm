@@ -11,6 +11,9 @@
     <!-- CSS Styles -->
     <link rel="stylesheet" href="/src/css/Main-styles.css">
     <link rel="stylesheet" href="/src/css/all.min.css">
+
+    <!-- JS Scripts -->
+    <script src="/src/js/all.min.js"></script>
 </head>
 <body>
     <header>
@@ -78,30 +81,30 @@
                 <!-- <img src="/src/images/header-image.png" alt=""> -->
             </div>                       
         </div>
-        <div class="container bg-theme-color"> 
+        <div class="container bg-theme-color-1"> 
             <h1>TECH STACKS</h1>           
             <div class="tech-stacks">                
                 <div class="tech-item">
-                    <small class="fa-brands fa-react fa-spin"></small>
+                    <small class="fa-brands fa-react fa-spin fa-2x"></small>
                     <h4>React</h4>
                     <p></p>
                 </div>
                 <div class="tech-item">
-                    <small class="fa-brands fa-js"></small>
+                    <small class="fa-brands fa-js fa-2x"></small>
                     <h4>Javascript</h4>
                     <p></p>
                 </div>
                 <div class="tech-item">
-                    <small class="fa-brands fa-node"></small>
+                    <small class="fa-brands fa-node fa-2x"></small>
                     <h4>Node.JS</h4>
                     <p></p>
                 </div>                
                 <div class="tech-item">
-                    <small class="fa-brands fa-php"></small>
+                    <small class="fa-brands fa-php fa-2x"></small>
                     <h4>PHP</h4>                    
                 </div>
                 <div class="tech-item">
-                    <small class="fa-brands fa-bootstrap"></small>
+                    <small class="fa-brands fa-bootstrap fa-2x"></small>
                     <h4>Bootstrap</h4>                    
                 </div>
             </div>
@@ -130,7 +133,50 @@
                     <p></p>
                 </div>                
             </div>
-        </div>        
+        </div>  
+        <div class="container text-center bg-theme-color-1 p-2">
+            <h2 class="p-2">Get in Touch</h2>
+            <div class="contact-me">
+                <div class="contact-group">
+                    <h3 class="p-2">I'm Social</h3>                                                 
+                    <ul class="footer-nav">
+                        <li class="facebook"><a href="https://www.facebook.com/princemike.joseph" target="_blank">
+                            <i class="fa-brands fa-facebook fa-2x"></i>  Facebook</a>
+                        </li>
+                        <li class="twitter"><a href="https://www.twitter.com/orkumamichael" target="_blank">
+                            <i class="fa-brands fa-twitter fa-2x"></i>  Twitter</a>
+                        </li>
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/orkumamichael" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>  LinkedIn</a>
+                        </li>
+                        <li class="instagram"><a href="https://www.linkedin.com/in/orkumamichael" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2x"></i>  Instagram</a>
+                        </li>
+                        <li class="github"><a href="https://www.github.com/orkumacsc" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>  Github</a>
+                        </li>
+                        <li class="whatsapp"><a href="https://wa.me/2348140326189" target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-2x"></i>  Whatsapp</a>
+                        </li>
+                    </ul>                                        
+                </div>
+                <div class="contact-group">
+                    <h3 class="p-2">Send Me a Message</h3>
+                    <form action="send_message.js" method="post" id="sendMessage">
+                        <div class="form-group">
+                            <input type="text" name="fullname" required placeholder="Enter Your Full Name">
+                            <input type="email" name="email" required placeholder="Enter Your eMail">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Type Your Message Here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>      
     </main>
 
     <footer>

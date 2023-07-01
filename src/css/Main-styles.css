@@ -5,15 +5,53 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.p-1 {padding: .50rem;}
+.p-2 {
+    padding: 1rem;
+}
+
 .container {
     width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;    
+    margin: 0%;      
 }
-.bg-theme-color {
-    background-color: rgba(0, 0, 0, .90);
+
+.text-center {
+    text-align: center;
 }
+
+
+.bg-theme-color-1 {
+    background-color: darkgreen;
+}
+
+.bg-theme-color-2{
+    background-color: green;
+}
+
+.facebook, .twitter, .github, .instagram, .linkedin , .whatsapp{
+    padding: .75rem;
+}
+
+.facebook {    
+    background-color: #0165E1;    
+}
+.twitter {
+    background-color:#15a3db;
+}
+.github {
+    background-color: #000000;
+}
+.linkedin, .calendry {
+    background-color: #0A66C2;
+}
+.instagram {
+    background-color: #C13584;
+}
+.whatsapp {
+    background-color: #28D146;
+}
+
 
 .footer-container {
     padding: 3rem;
@@ -21,11 +59,30 @@
     color: white;
 }
 
+.footer-nav {
+    display: flex;    
+    align-items: center;    
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: white;
+}
+
+.footer-nav li{
+    list-style-type: none;
+    padding-right: .75rem;
+    text-align: center;    
+}
 .footer-container a {
     text-decoration: none;
     color: white;
 }
-.container .tech-stacks, .works-completed {
+.container .tech-stacks, .works-completed, .contact-me{
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -55,9 +112,6 @@
     text-align: center;    
 }
 
-.bg-theme-color-2{
-    background-color: green;
-}
 
 iframe {
     width: 100%;
@@ -85,11 +139,12 @@ header {
 
 .about-content-wrapper, .about-image {
     width: 50%;
+    position: relative;
 }
 .navbar, .navbar-nav, .about-wrapper {
     display: flex;
     align-items: center;
-    
+    /* justify-content: space-around;   */
     
 }
  .nav-toggler {
@@ -147,17 +202,77 @@ header {
     color: white;
     font-size: xx-large;
 }
-
-@media only screen and (max-width: 768px) {
-    .about-content-wrapper, .about-image {
-        width: 100%;
-    }   
-
+textarea {
+    resize: vertical;
+    width: 27rem;
+    height: 15rem;
+}
+input, textarea{
+    background-color: green;
+    padding: .75rem;
+    margin: .50rem;
+    color: white;
+    border: none;
+    border-radius: .75rem;
     
-.navbar, .about-wrapper {
-    display: block;       
+}
+form {
+    text-align: center;
+}
+button {
+    background-color: black;
+    padding: .75rem 1.75rem;    
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
 }
 
+input::placeholder, textarea::placeholder, button {
+    color: white;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+.about-content-wrapper,
+ .about-image,
+  .works-item,
+  .tech-item,
+   .contact-group{
+    width: 100%;    
+} 
+
+.footer-nav,
+ .contact-me,
+  .navbar, 
+    .about-wrapper,
+     .nav-toggler,
+       .container,
+        .tech-stacks,
+         .works-completed{
+            display: block;           
+}
+
+.footer-nav li {
+    text-align: left;
+    padding-left: 4rem;
+}
+.contact-group {
+    padding: 1rem 3rem;
+}
+textarea {
+    resize: none;
+    width: 100%;    
+}
+
+input {
+    width: 100%;
+    padding: 1.5rem;
+}
+ 
 .about-content {
     font-size: large;
     text-align: left;
@@ -168,6 +283,7 @@ header {
     text-align: left;
     padding: 1rem 0;
 }
+
 img {
     padding: .75rem;
     max-width: 100%;
@@ -178,27 +294,7 @@ img {
     display: none;    
 }
 
-.nav-toggler {
-    display: inline;
-}
-
-.row {
-    display: flex;
-    align-items: center;
-}
-.container .tech-stacks, .works-completed {
-    display: block;
-       
-}
-.works-item {
-    width: 100%;    
-}
-
-.tech-item {
-    width: 100%;    
-}
-
 iframe {
     height: 30rem;
 }
-  }
+}
