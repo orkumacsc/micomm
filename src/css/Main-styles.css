@@ -124,13 +124,6 @@
 }
 
 
-iframe {
-    width: 100%;
-    height: 15rem;    
-    border: .2rem solid yellowgreen;
-    
-}
-
 header {  
     background-color:#006400;
     color: white;    
@@ -191,7 +184,7 @@ header {
 
  header {
     position: fixed;
-    width: 100%;
+    width: 100%;    
  }
 
 .navbar > ul {
@@ -325,6 +318,10 @@ textarea {
     width: 100%;    
 }
 
+.about-wrapper{
+    padding-top: 7rem;
+}
+
 input {
     width: 100%;
     padding: 1.5rem;
@@ -357,6 +354,7 @@ input {
     top: 0%;
     left: 0%;
     width: 80%;
+    z-index: 9000;
     background-color: darkgreen;    
     /* transform: translateX(-100%);
     transition: transform .3s ease-in; */
@@ -372,6 +370,6 @@ input {
     vertical-align: top;
     z-index: 8020;
     width: 87%;
-    height: 41%;           
+    height: 39.2%;           
 }
 }
