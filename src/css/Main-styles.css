@@ -129,7 +129,7 @@ iframe {
 }
 
 header {  
-    background-color:darkgreen;
+    background-color:#006400;
     color: white;    
 }
 
@@ -313,7 +313,7 @@ input {
     top: 0%;
     left: 0%;
     width: 80%;
-    background-color: #28D146;
+    background-color: darkgreen;
     transition: width 3s linear 2s;
 }
 
