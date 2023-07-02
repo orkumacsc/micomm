@@ -16,6 +16,9 @@
     max-width: 100%;   
 }
 
+.works-image {
+    width: 100%;
+}
 .logo-link {
     display: flex;
     align-items: center;
@@ -135,14 +138,44 @@ header {
 
 .about-group {
     width: 50%;
+    
 }
 
 .navbar, .navbar-nav, .about-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-around;  
-    
+    align-items: center;    
+    justify-content: space-around;
 }
+
+.overlay-thumb {
+    display: none;
+    padding: 2.5em;
+    color:#28D146;
+    position: relative;
+    z-index: 8020;
+}
+
+.thumb-hover:hover .overlay, .thumb-hover:hover .overlay-thumb {
+    display: inline;
+}
+
+.thumb-hover:hover .overlay{    
+    background-color: #00000080;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.thumb-hover {    
+    position: absolute;    
+    vertical-align: top;
+    z-index: 8020;
+    width: 29.5%;
+    height: 41%;
+           
+}
+
  .nav-toggler {
     padding: 0 .75rem;
     cursor: pointer;
@@ -321,7 +354,12 @@ input {
     padding-right: 0%;
 }
 
-iframe {
-    height: 30rem;
+
+.thumb-hover {    
+    position: absolute;    
+    vertical-align: top;
+    z-index: 8020;
+    width: 87%;
+    height: 41%;           
 }
 }
