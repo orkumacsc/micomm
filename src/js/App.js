@@ -1,8 +1,14 @@
 
 "use strict";
 
-let btnSend = document.querySelector('.nav-toggler');
-let navOpen = document.querySelector('.navbar-nav')
-btnSend.addEventListener('click', (e) => {
-    navOpen.classList.toggle('navbar-open');
+const btnOpen = document.querySelector('.toggle-open');
+const btnClose = document.querySelector('.toggle-close');
+let menu = document.querySelector('.navbar');
+
+btnOpen.addEventListener('click', () => {
+    menu.classList.remove('none');
+})
+
+btnClose.addEventListener('click', () => {
+    menu.classList.add('none');
 })

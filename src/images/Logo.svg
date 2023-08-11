@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+	<title>New Project</title>
+	<defs>
+		<image  width="180" height="180" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0AQMAAAAHA5RxAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAbSURBVHic7cEBDQAAAMKg909tDjegAAAAAL4NEOAAAaIcHAQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 200px;fill: #ffffff;font-weight: 400;font-family: "RubikBeastly-Regular", "Rubik Beastly" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="O" style="transform: matrix(1,0,0,1,17,158)" >
+		<tspan x="0" y="0" class="t0">O
+</tspan>
+	</text>
+</svg>

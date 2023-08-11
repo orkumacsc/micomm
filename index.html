@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORKUMA, MICHAEL MSUEGA | FullStack Web Developer</title>
+    <title>ORKUMA, MICHAEL | FullStack Web Developer</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/src/images/favicon.jpg" type="image/jpg">
 
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="/src/css/Main-styles.css">
+    <link rel="stylesheet" href="/src/css/main.css">
     <link rel="stylesheet" href="/src/css/all.min.css">
 
     <!-- JS Scripts -->
@@ -20,228 +20,258 @@
     <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="src/images/favicons/site.webmanifest">
-
 </head>
 <body>
-    <header>
-        <nav class="navbar" id="home">
-            <div class="nav-group">
-                <a class="logo-link" href="#home"><img class="nav-image" src="/src/images/logo.png" alt="">ORKUMA<span>Michael Msuega</span></a>
-                <a class="nav-toggler"><i class="fa fa-bars fa-2x"></i></a>
+   <div class="content-wrapper bg-theme-color-1 min-h-full">
+        <header class="bg-theme-color-1 min-w-full py-sm px-md fixed">
+            <div class="flex nowrap justify-content-between navlogo title-colour">
+                <a class="flex nowrap text-sm" href="#home"><img class="nav-image" src="/src/images/logo_light.png" alt="">RKUMA<span class="primary-colour ms-xm">Michael</span></a>
+                <a class="cursor toggle-open"><span class="fa-solid fa-bars"></span></a>
             </div>
-            <ul class="navbar-nav">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#tools">Tooling</a></li>
-                <li><a href="#works">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact Me</a></li> 
-            </ul> 
-        </nav>
-    </header>
-    <main>
-        <div class="container bg-theme-color-1">
-            <div class="about-wrapper" id="about">
-                <div class="about-group">
-                    <h4 class="about-header">Hi Everyone! <span>I'm</span></h4>
-                    <h1 class="about-title">ORKUMA Michael Msuega</h2>
-                    <h3 class="about-subtitle">FullStack Web Developer</h3>
-                    <p class="about-subheader">
-                        I help companies leverage on technology to
-                        launch and grow their products.
-                    </p>                
+            <nav class="navbar bg-theme-color-1 none title-colour md-w-40 lg-w-20">
+                <div><a class="cursor toggle-close right p-md"><span class="fa-solid fa-close"></span></a></div>
+                <div>
+                    <ul class="p-md">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#tools">Tooling</a></li>
+                        <li><a href="#works">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact Me</a></li> 
+                    </ul>
                 </div>
-                <div class="about-group">
-                    <svg class="about-image" viewBox="-103 0 750 591" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBlob" mask-type="alpha">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"></path>
-                        </mask>
-                        <g mask="url(#maskBlob)">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"></path>
-                     
-                           <rect x="15" y="25" width="510" height="680" fill="url(#pattern0)"></rect>
-                        </g>             
-                        
-                     
-                        <defs>
-                           <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"></use>
-                           </pattern>
-                     
-                           <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"></use>
-                           </pattern>
-                     
-                           <!-- Insert your profile (recommended size: 640 x 940) -->
-                           <image class="about-image" id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
-                        </defs>
-                     </svg>
-                    <!-- <img src="/src/images/header-image.png" alt=""> -->
-                </div>                       
-            </div>
-        </div>
-        <div class="container bg-theme-color-2">
-            <div class="about-wrapper" id="about">           
-                <div class="about-group">
-                    <svg class="about-image-2" viewBox="-103 0 750 591" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBlob" mask-type="alpha">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"></path>
-                        </mask>
-                        <g mask="url(#maskBlob)">
-                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"></path>
-                     
-                           <rect x="15" y="25" width="510" height="680" fill="url(#pattern0)"></rect>
-                        </g>             
-                        
-                     
-                        <defs>
-                           <!-- <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"></use>
-                           </pattern> -->
-
-                           <!-- Insert your profile (recommended size: 640 x 940) -->
-                           <image class="home_image" id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
-                        </defs>
-                     </svg>
-                    <!-- <img src="/src/images/header-image.png" alt=""> -->
-                </div>  
-                <div class="about-group">
-                    <h4 class="about-subtitle">About Me</h4>                
-                    <p class="about-content">
-                        I'm a FullStack Web Developer with four years experience.
-                        I've a vast practical knowledge of the tooling I use in my development.
-                        I make use of the latest technologies, complete projects on time, 
-                        deliver on time and within budget.
-                    </p>
-                </div>                     
-            </div>
-        </div>
-        <div class="container bg-theme-color-1 text-center" id="tools"> 
-            <h2>My Tech Tools</h2>           
-            <div class="tech-wrapper">                
-                <div class="tech-item">
-                    <small class="fa-brands fa-react fa-2x"></small>
-                    <h4>React</h4>
-                    <p></p>
-                </div>
-                <div class="tech-item">
-                    <small class="fa-brands fa-js fa-2x"></small>
-                    <h4>Javascript</h4>
-                    <p></p>
-                </div>
-                <div class="tech-item">
-                    <small class="fa-brands fa-node fa-2x"></small>
-                    <h4>Node.JS</h4>
-                    <p></p>
-                </div>                
-                <div class="tech-item">
-                    <small class="fa-brands fa-php fa-2x"></small>
-                    <h4>PHP</h4>                    
-                </div>
-                <div class="tech-item">
-                    <small class="fa-brands fa-bootstrap fa-2x"></small>
-                    <h4>Bootstrap</h4>                    
+            </nav>
+        </header>
+        <main class="min-h-full mx-auto">
+            <div class="bg-theme-color-1 pt-lg">
+                <div class="md-flex">
+                    <div class="about-group text-center py-sm px-md text-left">
+                        <h4 class="title-colour mt-xm">Hi Everyone! <span>I'm</span></h4>
+                        <h2 class="primary-colour mt-xm text-xxl">ORKUMA Michael</h2>
+                        <h3 class="title-colour mt-xm font-600 text-xl">Full-Stack Web Developer</h3>
+                        <p class="text-colour font-400 font-lg my-sm">
+                            I help companies leverage on technology to launch and grow their products.
+                        </p>
+                        <a href="#resume" class="button px-sm py-xm mt-md  title-colour border-sm" type="submit">Download Resume</a>                
+                    </div>
+                    <div class="md-w-50 mb-md">
+                        <svg class="about-image mx-auto" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="maskBlob" mask-type="alpha">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z">
+                                </path>
+                            </mask>
+                            <g mask="url(#maskBlob)">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z">
+                                </path>                            
+                                <rect x="15" y="25" width="510" height="680" fill="url(#pattern0)"></rect>
+                            </g>
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"></use>
+                                </pattern>                            
+                                <image id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
+                            </defs>
+                        </svg>
+                    </div>                       
                 </div>
             </div>
-        </div>
-        <div class="container bg-theme-color-2 text-center" id="works"> 
-            <h2>Projects Completed</h2>           
-            <div class="works-completed" >                
-                <div class="works-item">
-                    <div class="works-cover-image">
-                        <a class="thumb-hover" href="http://www.gospelschools.com.ng" target="_blank">
-                            <span class="overlay"></span>
-                            <i class="overlay-thumb fa fa-plus-circle fa-2x"></i>
-                        </a>
-                        <img class="works-image" src="/src/images/Gospel.png" alt="Gospel International College, Zaki-Biam" srcset="">
+            <div class="bg-theme-color-2">
+                <div class="md-flex items-center">
+                    <div class="md-w-50 text-center text-left py-sm px-md">
+                        <h4 class="title-colour text-lg">About Me</h4>                
+                        <p class="text-colour font-400 font-lg my-sm">
+                            I'm a FullStack Web Developer with four years experience.
+                            I've a vast practical knowledge of the tooling I use in my development.
+                            I make use of the latest technologies, complete projects on time, 
+                            deliver on time and within budget.
+                        </p>
+                        <a href="#contact" class="button px-sm py-xm title-colour border-sm" type="submit">Contact Me</a>                
+                    </div>
+                    <div class="md-w-50">
+                        <svg class="about-image" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="maskBlob" mask-type="alpha">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z">
+                                </path>
+                            </mask>
+                            <g mask="url(#maskBlob)">
+                                <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                                    170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                                    447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                                    587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                                    438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z">
+                                </path>                            
+                                <rect x="15" y="25" width="510" height="680" fill="url(#pattern0)"></rect>
+                            </g>
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"></use>
+                                </pattern>                            
+                                <image id="imageBlob" width="640" height="925" href="/src/images/header-image.png"></image>
+                            </defs>
+                        </svg>
                     </div>                    
-                                       
                 </div>
-                <div class="works-item">
-                    <div class="works-cover-image">
-                        <a class="thumb-hover" href="http://www.micomm.me" target="_blank">
-                            <span class="overlay"></span>
-                            <i class="overlay-thumb fa fa-plus-circle fa-2x"></i>
-                        </a>
-                        <img class="works-image" src="/src/images/Micomm_Portfolio.png" alt="Orkuma Michael Msuega" srcset="">
-                    </div> 
-                </div> 
-                <div class="works-item">
-                    <div class="works-cover-image">
+            </div>
+            <div class="bg-theme-color-1 text-center p-md" id="tools"> 
+                <h2 class="title-colour">Tech Tools</h2>           
+                <div class="grid grid-cols-2 grid-cols-3 grid-cols-4 gap-2 pt-sm justify-items-center mx-auto">                                  
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-html5 fa-2xl"></small>
+                        <h6>HTML 5</h6>
+                        <p></p>
+                    </div>
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-css3 fa-2xl"></small>
+                        <h6>CSS 3</h6>
+                        <p></p>
+                    </div>
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-bootstrap fa-2xl"></small>
+                        <h6>Bootstrap</h6>                    
+                    </div>
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-js fa-2xl"></small>
+                        <h6>Javascript</h6>
+                        <p></p>                    
+                    </div>
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-react fa-2xl"></small>
+                        <h6>React JS</h6>                    
+                    </div>                  
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-php fa-2xl"></small>
+                        <h6>PHP</h6>                    
+                    </div>                    
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-laravel fa-2xl"></small>
+                        <h6>Laravel</h6>                    
+                    </div>
+                    <div class="flex nowrap gap-1 primary-colour p-sm bg-theme-color-2">
+                        <small class="fa-brands fa-node-js fa-2xl"></small>
+                        <h6>NodeJS</h6>                    
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-theme-color-2 text-center p-md" id="works"> 
+                <h2 class="title-colour">Projects Completed</h2>           
+                <div class="grid grid-cols-3 gap-2 w-full mt-sm text-colour">                
+                    <div class="works-item">                        
                         <a class="thumb-hover" href="http://www.gospelschools.com.ng" target="_blank">
-                            <span class="overlay"></span>
-                            <i class="overlay-thumb fa fa-plus-circle fa-2x"></i>
+                            <img class="w-full" src="/src/images/Gospel.png" alt="Gospel International College, Zaki-Biam" srcset=""> 
+                            <div class="bg-theme-color-1 p-sm text-left">
+                                <h5>Gospel International College</h5>
+                                <p>www.gospelschools.sch.ng</p>
+                            </div>                                  
                         </a>
-                        <img class="works-image" src="/src/images/Miedusoft_Solutions.png" alt="Miedusoft Solutions" srcset="">
+                    </div>
+                    <div class="works-item">                        
+                        <a class="thumb-hover" href="http://www.micomm.me" target="_blank">
+                            <img class="w-full" src="/src/images/Micomm_Portfolio.png" alt="Orkuma Michael Msuega" srcset=""> 
+                            <div class="bg-theme-color-1 p-sm text-left">
+                                <h5>Personal Website</h5>
+                                <p>www.micomm.me</p>
+                            </div>                       
+                        </a>
                     </div> 
-                </div>                
-            </div>
-        </div>  
-        <div class="container text-center bg-theme-color-2 p-2" id="contact">
-            <h2>Get in Touch</h2>
-            <div class="contact-wrapper" >
-                <div class="contact-group">
-                    <h3>I'm Social</h3>                                                 
-                    <ul class="footer-nav">
-                        <li class="facebook"><a href="https://www.facebook.com/orkumam.michael" target="_blank">
-                            <i class="fa-brands fa-facebook fa-2x"></i>  Facebook</a>
-                        </li>
-                        <li class="twitter"><a href="https://www.twitter.com/orkumammichael" target="_blank">
-                            <i class="fa-brands fa-twitter fa-2x"></i>  Twitter</a>
-                        </li>
-                        <li class="linkedin"><a href="https://www.linkedin.com/in/orkumamichael" target="_blank">
-                            <i class="fa-brands fa-linkedin fa-2x"></i>  LinkedIn</a>
-                        </li>
-                        <li class="instagram"><a href="https://www.linkedin.com/in/orkumamichael" target="_blank">
-                            <i class="fa-brands fa-instagram fa-2x"></i>  Instagram</a>
-                        </li>
-                        <li class="github"><a href="https://www.github.com/orkumacsc" target="_blank">
-                            <i class="fa-brands fa-github fa-2x"></i>  Github</a>
-                        </li>
-                        <li class="whatsapp"><a href="https://wa.me/2348140326189" target="_blank">
-                            <i class="fa-brands fa-whatsapp fa-2x"></i>  Whatsapp</a>
-                        </li>
-                    </ul>                                        
-                </div>
-                <div class="contact-group">
-                    <h3>Want to send me a message?</h3>
-                    <form action="send_message.js" method="post" id="sendMessage">
-                        <div class="form-group">
-                            <input type="text" name="fullname" required placeholder="Enter Your Full Name">
-                            <input type="email" name="email" required placeholder="Enter Your eMail">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" id="message" placeholder="Type Your Message Here"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit">Submit</button>
-                        </div>
-                    </form>
+                    <div class="works-item">                        
+                        <a class="thumb-hover" href="http://www.gospelschools.com.ng" target="_blank">
+                            <img class="w-full" src="/src/images/Miedusoft_Solutions.png" alt="Miedusoft Solutions" srcset="">
+                            <div class="bg-theme-color-1 p-sm text-left">
+                                <h5>Miedusoft solutions</h5>
+                                <p>miedusoft.ng</p>
+                            </div>
+                        </a>                   
+                    </div>                
                 </div>
             </div>
-        </div>      
-    </main>
-
-    <footer>
-        <div class="footer-container">
-            <h5>&copy; Copyright <i id="year">2023.</i> <a href="https://www.micomm.me">ORKUMA, Michael Msuega.</a> All Rights Reserved.</h5>
-        </div>
-    </footer>
+            <div class="container text-center bg-theme-color-1 p-md" id="contact">
+                <h2 class="primary-colour">Get in Touch</h2>
+                <div class="contact-wrapper md-flex gap-2 mt-sm">
+                    <div class="md-w-50">
+                        <h3 class="title-colour">I'm Social</h3>                                                 
+                        <ul class="footer-nav title-colour grid grid-cols-2 lg-grid-cols-3 mt-sm">
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/orkumam.michael" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-facebook fa-2x"></i>  Facebook
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://www.twitter.com/orkumammichael" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-twitter fa-2x"></i>  Twitter
+                                </a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="https://www.linkedin.com/in/orkumamichael" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-linkedin fa-2x"></i>  LinkedIn
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="https://www.linkedin.com/in/orkumamichael" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-instagram fa-2x"></i>  Instagram
+                                </a>
+                            </li>
+                            <li class="github">
+                                <a href="https://www.github.com/orkumacsc" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-github fa-2x"></i>  Github
+                                </a>
+                            </li>
+                            <li class="whatsapp">
+                                <a href="https://wa.me/2348140326189" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
+                                    <i class="fa-brands fa-whatsapp fa-2x"></i>  Whatsapp
+                                </a>
+                            </li>
+                        </ul>                                        
+                    </div>
+                    <div class="md-w-50 mt-md md-mt-0">
+                        <h4 class="title-colour">Want to send me a message?</h4>
+                        <form action="send_message.js" method="post" id="sendMessage" class="mt-sm">
+                            <div class="form-group">
+                                <input 
+                                 type="text" 
+                                 name="fullname" required 
+                                 placeholder="Enter Your Full Name"
+                                 class="p-sm bg-theme-color-2 title-colour w-full lg-w-40"
+                                >
+                                <input 
+                                 type="email" 
+                                 name="email" 
+                                 required placeholder="Enter Your eMail"
+                                 class="p-sm mt-xm bg-theme-color-2 title-colour w-full lg-w-40"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <textarea 
+                                 name="message" 
+                                 id="message" 
+                                 placeholder="Type Your Message Here"
+                                 class="p-sm mt-xm lg-mt-sm bg-theme-color-2 title-colour w-full lg-w-80"
+                                ></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="button w-full py-sm font-600 font-lg border-sm mt-xm bg-none title-colour lg-w-80 cursor" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>  
+        </main>
+        <footer>
+            <div class="bg-theme-color-2 mx-auto p-sm text-center ">
+                <h5 class="title-colour font-400">&copy; 2023 <a href="http://www.micomm.me"><span class="primary-colour">ORKUMA</span>, Michael</a></h5>
+            </div>
+        </footer>       
+   </div>
 
     <script src="/src/js/App.js"></script>
     <script src="/src/js/all.min.js"></script>
