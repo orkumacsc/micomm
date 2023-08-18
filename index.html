@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="src/images/favicons/site.webmanifest">
 </head>
-<body>
+<body id="body">
    <div class="content-wrapper bg-theme-color-1 min-h-full">
         <header class="bg-theme-color-1 min-w-full py-sm px-md fixed">
             <div class="flex nowrap justify-content-between navlogo title-colour">
@@ -31,7 +31,7 @@
             <nav class="navbar bg-theme-color-1 none title-colour md-w-40 lg-w-20">
                 <div><a class="cursor toggle-close right p-md"><span class="fa-solid fa-close"></span></a></div>
                 <div>
-                    <ul class="p-md">
+                    <ul class="list-none space-y-md p-md">
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#tools">Tooling</a></li>
                         <li><a href="#works">Projects</a></li>
@@ -51,7 +51,7 @@
                         <p class="text-colour font-400 font-lg my-sm">
                             I help companies leverage on technology to launch and grow their products.
                         </p>
-                        <a href="#resume" class="button px-sm py-xm mt-md  title-colour border-sm" type="submit">Download Resume</a>                
+                        <button  id="open-modal" class="button px-sm py-xm mt-md bg-none title-colour border-sm cursor">Resume</a>                
                     </div>
                     <div class="md-w-50 mb-md">
                         <svg class="about-image mx-auto" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
@@ -267,7 +267,150 @@
                         </form>
                     </div>
                 </div>
-            </div>  
+            </div>
+            <div id="resumeModal" class="mx-auto p-md w-full h-full">
+                <div class="flex nowrap items-center justify-content-between mx-auto w-a4 p-sm bg-theme-color-2">
+                    <div>
+                        <a href="/ORKUMA_Michael_Full_Stack_Web_Developer_Resume.pdf" download="ORKUMA_Michael_Resume" class="button px-sm py-xm title-colour border-sm cursor">Download</a>                
+                    </div>
+                    <div>
+                        <button id="close" class="px-md px-sm py-xm bg-none title-colour cursor button-warning border-sm-pink text-right">
+                            <i class="fa-solid fa-close fa-xl"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex w-a4 h-a4 mx-auto overflow-auto items-stretch">
+                    <div class="w-30 bg-theme-color-1 text-center">
+                        <div class="pt-sm">
+                            <img src="/src/images/header-image.png" alt="" class="w-full"/>
+                        </div>
+                        <div class="px-sm">
+                            <h4 class="title-colour mt-sm text-right border-bottom">CONTACT</h4>
+                            <div class="flex items-end flex-column overflow-hidden text-xm gap-2">
+                                <div class="pt-sm flex gap-2">
+                                    <div class="text-right text-colour">
+                                        <p>PHONE</p>
+                                        <p>+234(0)8140326189</p>
+                                    </div>
+                                    <div class="text-colour">
+                                        <small class="fa-solid fa-phone rounded-full b-sm b-solid p-xxm"></small>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div class="text-right text-colour">
+                                        <p>EMAIL</p>
+                                        <p>orkuma.michael70@gmail.com</p>
+                                    </div>
+                                    <div class="text-colour">
+                                        <small class="fa-solid fa-envelope rounded-full b-sm b-solid p-xxm"></small>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div class="text-right text-colour">
+                                        <p>WEBSITE</p>
+                                        <p>www.micomm.me</p>
+                                    </div>
+                                    <div class="text-colour">
+                                        <small class="fa-solid fa-globe rounded-full b-sm b-solid p-xxm"></small>
+                                    </div>
+                                </div>
+                                <div class="flex gap-2 text-sm">
+                                    <div class="text-right text-colour">
+                                        <p>ADDRESS</p>
+                                        <p>Abuja, Nigeria</p>
+                                    </div>
+                                    <div class="text-colour">
+                                        <small class="fa-solid fa-map-marker-alt rounded-full b-sm b-solid p-xxm"></small>
+                                    </div>
+                                </div>                               
+                            </div>
+                        </div>                        
+                        <div class="px-sm mb-md">
+                            <h4 class="title-colour mt-sm text-right border-bottom">SKILLS</h4>
+                            <div class="flex items-end flex-column overflow-hidden text-sm gap-2">                                
+                                <div class="text-right text-colour pt-sm">
+                                    <p class="underline primary-colour">FRONTEND SKILLS</p>
+                                    <ul class="list-none space-y">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>JAVASCRIP</li>
+                                        <li>REACT</li>
+                                        <li>BOOSTRAP</li>
+                                        <li>TAILWINDCSS</li>
+                                    </ul>
+                                </div>                                    
+                            
+                                <div class="text-right text-colour">
+                                    <p class="underline primary-colour">BACKEND SKILLS</p>
+                                    <ul class="list-none space-y">
+                                        <li>PHP</li>
+                                        <li>NODEJS & EXPRESS</li>
+                                        <li>MYSQL</li>                                        
+                                    </ul>
+                                </div> 
+                                <div class="text-right text-colour">
+                                    <p class="underline primary-colour">MISCELLANEOUS SKILLS</p>
+                                    <ul class="list-none space-y">
+                                        <li>GIT</li>
+                                        <li>Test Driven Development (TDD) </li>
+                                        <li>MYSQL</li>                                        
+                                    </ul>
+                                </div>                                                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-70 bg-theme-color-4">
+                        <div class="bg-theme-color-2 mt-md p-md">
+                            <h2 class="title-colour"><b class="primary-colour">ORKUMA,</b> MICHAEL MSUEGA</h2>
+                            <h4 class="text-colour mt-xm">FULL STACK WEB DEVELOPER</h4>
+                        </div>
+                        <div class="mt-sm px-md">
+                            <h4 class="primary-colour border-bottom">ABOUT ME</h4>
+                            <p class="mt-xm">
+                                A full Stack Web Developer with a pasion for metrics and beating former best-yets.
+                                Possesses a flair for creating elegant solutions in the least amount of time.                           
+                                Developed an educational website, a complete school management system for a private secondary school.
+                                Developed a responsive dashboard and a portfolio website for myself.                            
+                                Passionate about building world class web applications.
+                                Regular attendee of web developer meetups and hackathons.
+                            </p>
+                        </div>
+                        <div class="mt-sm px-md">
+                            <h4 class="primary-colour mt-sm border-bottom">EDUCATION</h4>
+                            <div>                                
+                                <div class="pt-sm">
+                                    <h5>BACHELOR OF COMPUTER SCIENCE | 2019 - DATE</h5>
+                                    <p>Federal University Wukari, Taraba State</p>
+                                    <ul class="ps-sm">
+                                        <li>
+                                            <p class="mt-sm">Following my passion in core programming and software developement</p> 
+                                        </li>
+                                        <li>
+                                            <p class="mt-sm">
+                                                Researching on Design and Implementation of an Online Students' Project Management System. 
+                                                A case study of Federal University Wukari, Taraba State.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div> 
+                                <div class="pt-sm">
+                                    <h5>WASSCE FOR SCHOOL CANDIDATES | 2011 - 2017</h5>
+                                    <p>Gospel International College, Zaki-Biam</p>                                    
+                                </div>                                                      
+                            </div>
+                        </div>
+                        <div class="mt-sm px-md mb-md">
+                            <h4 class="primary-colour border-bottom">EXPERIENCE</h4>
+                            <h5 class="mt-sm">FREELANCE WEB DEVELOPER | 2019 - DATE</h5>                            
+                            <p>                              
+                                Built an educational management system for a private secondary school. 
+                                Increased student population by 20%, increased revenue by 20%, reduced loss by 30%
+                                reduced staff workload by 40%, reduced school administrators' workload by 60%,                                                               
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
         </main>
         <footer>
             <div class="bg-theme-color-2 mx-auto p-sm text-center ">
