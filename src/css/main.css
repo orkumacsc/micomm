@@ -124,8 +124,7 @@ a {
 .justify-content-between{justify-content: space-between;}
 
 /* resumeModal */
-#resumeModal{
-    top: 0;     
+#resumeModal{        
     position: fixed;    
     z-index: 20;
     display: none;
@@ -134,17 +133,19 @@ a {
     overflow-y: auto;
 }
 
+@keyframes slide-down {to {top: 0;}}
+@keyframes slide-up {to {top: -100%;}}
+
 /* Navigation Bar */
-.navbar { 
-    width: 70%;   
+#navbar {
     height: 100vh;
     position: fixed;    
     z-index: 10;    
     top: 0%;
-    right: -100%;    
-    animation: slide-in ease 600ms forwards;    
+    box-shadow: 1.5rem 1rem #00000080;
 }
 @keyframes slide-in {to {right: 0;}}
+@keyframes slide-out {to {right: -100%;}}
 
 .about-image, .about-image-2 {
     stroke: var(--first-color);    

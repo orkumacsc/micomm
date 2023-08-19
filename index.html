@@ -28,15 +28,15 @@
                 <a class="flex nowrap text-sm" href="#home"><img class="nav-image" src="/src/images/logo_light.png" alt="">RKUMA<span class="primary-colour ms-xm">Michael</span></a>
                 <a class="cursor toggle-open"><span class="fa-solid fa-bars"></span></a>
             </div>
-            <nav class="navbar bg-theme-color-1 none title-colour md-w-40 lg-w-20">
+            <nav id="navbar" class="bg-theme-color-1 none title-colour w-70 md-w-40 lg-w-20">
                 <div><a class="cursor toggle-close right p-md"><span class="fa-solid fa-close"></span></a></div>
                 <div>
-                    <ul class="list-none space-y-md p-md">
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#tools">Tooling</a></li>
-                        <li><a href="#works">Projects</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#contact">Contact Me</a></li> 
+                    <ul class="list-none space-y-md p-md font-600 ">
+                        <li class="nav-link"><a href="#about"><i class="fa-solid fa-user primary-colour"></i> About Me</a></li>
+                        <li class="nav-link"><a href="#tools"><i class="fa-solid fa-tools primary-colour"></i> Tooling</a></li>
+                        <li class="nav-link"><a href="#works"><i class="fa-solid fa-file-image primary-colour"></i> Projects</a></li>
+                        <li class="nav-link"><a href="#resume"><i class="fa-solid fa-business-time primary-colour"></i> Resume</a></li>
+                        <li class="nav-link"><a href="#contact"><i class="fa-solid fa-paper-plane primary-colour"></i> Contact Me</a></li> 
                     </ul>
                 </div>
             </nav>
@@ -51,7 +51,9 @@
                         <p class="text-colour font-400 font-lg my-sm">
                             I help companies leverage on technology to launch and grow their products.
                         </p>
-                        <button  id="open-modal" class="button px-sm py-xm mt-md bg-none title-colour border-sm cursor">Resume</a>                
+                        <button  id="open-modal" class="button px-sm py-xm mt-md bg-none title-colour border-sm cursor">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Resume</a>                
                     </div>
                     <div class="md-w-50 mb-md">
                         <svg class="about-image mx-auto" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +94,9 @@
                             I make use of the latest technologies, complete projects on time, 
                             deliver on time and within budget.
                         </p>
-                        <a href="#contact" class="button px-sm py-xm title-colour border-sm" type="submit">Contact Me</a>                
+                        <a href="#contact" class="button px-sm py-xm title-colour border-sm" type="submit">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Contact Me</a>                
                     </div>
                     <div class="md-w-50">
                         <svg class="about-image" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
@@ -200,7 +204,7 @@
                 <div class="contact-wrapper md-flex gap-2 mt-sm">
                     <div class="md-w-50">
                         <h3 class="title-colour">I'm Social</h3>                                                 
-                        <ul class="footer-nav title-colour grid grid-cols-2 lg-grid-cols-3 mt-sm">
+                        <ul class="footer-nav title-colour grid grid-cols-2 lg-grid-cols-3 mt-sm list-none">
                             <li class="facebook">
                                 <a href="https://www.facebook.com/orkumam.michael" target="_blank" class="flex nowrap justify-items-center gap-1 p-sm">
                                     <i class="fa-brands fa-facebook fa-2x"></i>  Facebook
@@ -262,7 +266,9 @@
                                 <small id="msg"></small>
                             </div>
                             <div class="form-group">
-                                <button class="button w-full py-sm font-600 font-lg border-sm mt-xm bg-none title-colour lg-w-80 cursor" type="submit">Send</button>
+                                <button class="button w-full py-sm font-600 font-lg border-sm mt-xm bg-none title-colour lg-w-80 cursor" type="submit">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    Send</button>
                             </div>
                         </form>
                     </div>
@@ -271,11 +277,16 @@
             <div id="resumeModal" class="mx-auto p-md w-full h-full">
                 <div class="flex nowrap items-center justify-content-between mx-auto w-full lg-w-a4 p-sm bg-theme-color-2">
                     <div>
-                        <a href="/ORKUMA_Michael_Full_Stack_Web_Developer_Resume.pdf" download="ORKUMA_Michael_Resume" class="button px-sm py-xm title-colour border-sm cursor">Download</a>                
+                        <a href="/ORKUMA_Michael_Full_Stack_Web_Developer_Resume.pdf" 
+                         download="ORKUMA_Michael_Resume" 
+                         class="button px-sm py-xm title-colour border-sm cursor">
+                         <i class="fa-solid fa-download"></i>
+                         Download</a>                
                     </div>
                     <div>
                         <button id="close" class="px-md px-sm py-xm bg-none title-colour cursor button-warning border-sm-pink text-right">
-                            <i class="fa-solid fa-close fa-xl"></i>
+                            <i class="fa-solid fa-close"></i>
+                            Close
                         </button>
                     </div>
                 </div>
